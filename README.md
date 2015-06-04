@@ -1,0 +1,2 @@
+# ExcelToStrings_ObjC
+This project demonstrates how to use a simply python script to convert a multi-language excel file to Objective-C .strings files. Lots of developers who do not use English as there native language and they may have to do some i18n jobs, receiving excel file from professional translators. This project helps to convert these kinds of excels to Objective-C .strings files in secs.
