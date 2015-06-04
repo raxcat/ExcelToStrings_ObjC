@@ -3,7 +3,7 @@ This project demonstrates how to use a simply python script to convert a multi-l
 
 #Requirements
 - Python3
-- [Openpyxl] - Python package that eads and writes from xlsx
+- [Openpyxl] - Python package that reads and writes from xlsx
 - Translated excel files.
     - Row -> Each word item
     - Column -> Language
