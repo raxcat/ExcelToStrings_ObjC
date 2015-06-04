@@ -67,6 +67,6 @@ $ There are 142 empty cells in raw excel file
 - TEst compatibility on other OS platforms. (Only MacOSX is tested)
 
 #Credit
-Project inspired by **@Splendet Wang**'s python script.
+Project inspired by **@SplendetWang[https://github.com/Splendent]**'s python script.
 
 [Openpyxl]:https://openpyxl.readthedocs.org/en/latest/index.html
