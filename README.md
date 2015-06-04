@@ -8,6 +8,9 @@ This project demonstrates how to use a simply python script to convert a multi-l
     - Row -> Each word item
     - Column -> Language
 
+#Note
+I am not a pro python programmer, this script just works but not good enough. Please advise if you have any suggestion.
+
 #Environment
 This script has been tested under Mac OS 10.10.3 with python2 and python3 installed, running py with python3.
 
@@ -64,7 +67,7 @@ $ There are 142 empty cells in raw excel file
 
 #Feature works
 - Test compatibility for xls file. (Older excel file format)
-- TEst compatibility on other OS platforms. (Only MacOSX is tested)
+- Test compatibility on other OS platforms. (Only MacOSX is tested)
 
 #Credit
 Project inspired by **@SplendetWang[https://github.com/Splendent]**'s python script.
