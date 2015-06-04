@@ -42,6 +42,7 @@ Specifying filename, EnglishColumnIndex to `B`, dafault IgnoreRowNumbers would b
 ```bash
 $ python3 translate.py example2.xlsx B 2 1
 ```
+![Alt text](/example2.png?raw=true "Optional title")
 ```bash
 $ English column index:B
 $ ignore_row_number:2
@@ -58,7 +59,8 @@ $ ...(ignored)
 $ There are 142 empty cells in raw excel file
 ```
 
-
+####Result
+![Alt text](/result.png?raw=true "Optional title")
 
 #Feature works
 - Test compatibility for xls file. (Older excel file format)
