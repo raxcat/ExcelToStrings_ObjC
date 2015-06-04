@@ -50,14 +50,11 @@ $ python3 translate.py example2.xlsx B 2 1
 $ English column index:B
 $ ignore_row_number:2
 $ ignore_column_number:1
-$ file folder: /Users/brian/Downloads/python translation
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/Englsih.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/繁体中文.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/简体中文.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/日本語.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/韩语.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/意大利语.strings
-$ Generating: /Users/brian/Downloads/python translation/AMCommon.xlsx-output/捷克语.strings
+$ file folder: /Users/raxcat/translation
+$ Generating: /Users/raxcat/translation/AMCommon.xlsx-output/Englsih.strings
+$ Generating: /Users/raxcat/translation/AMCommon.xlsx-output/繁体中文.strings
+$ Generating: /Users/raxcat/translation/AMCommon.xlsx-output/简体中文.strings
+$ Generating: /Users/raxcat/translation/AMCommon.xlsx-output/日本語.strings
 $ ...(ignored)
 $ There are 142 empty cells in raw excel file
 ```
