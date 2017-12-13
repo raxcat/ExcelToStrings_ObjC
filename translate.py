@@ -1,8 +1,12 @@
 import sys, os
 from openpyxl import Workbook
 from openpyxl.reader.excel import load_workbook
-from openpyxl.cell import coordinate_from_string, column_index_from_string
 from datetime import datetime
+
+try: 
+    from openpyxl.cell import get_column_letter, coordinate_from_string, column_index_from_string
+except ImportError:
+    from openpyxl.utils import get_column_letter, coordinate_from_string, column_index_from_string
 
 
 #check if running with python3
@@ -41,8 +45,8 @@ folder = os.path.dirname(os.path.abspath(filename))
 print('file folder: '+ folder)
 
 #read row and column
-row_count = sheet.get_highest_row() 
-column_count = sheet.get_highest_column()
+row_count = sheet.max_row
+column_count = sheet.max_column
 invalid_cell_count = 0
 
 # print ('File: ' + filename  + " -> " + str(row_count) + " rows and " + str(sheet.get_highest_column()) + " columns")
